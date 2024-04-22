@@ -1,0 +1,12 @@
+<svg width="1024px" height="600px" xmlns:a="http://www.adobe.com/svg10-extensions" xmlns:m="" xmlns:ui="">
+	<defs>
+		<filter id='Multiply'>
+			<feBlend mode='multiply' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+		<filter id='Add'>
+			<feBlend mode='screen' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+	</defs>
+		<image id='base' x='0' y='450' width='1024' height='450' xlink:href='./akaru.png'/>
+		<ui:custom id='message' x='120' y='460' width='760' height='105'/>
+</svg>
