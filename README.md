@@ -80,6 +80,7 @@ width 和 height 规定了图片的长宽，不用保持原分辨率比例，更
 
 - 咲耶的信
   中文可以竖排阅读，所以在原图上进行修改即可。
+  序章内嵌修图见 [【神咒神威神乐】序章・凶月咲耶的信 内嵌修图版预览](https://www.bilibili.com/video/BV1SJ4m1p7wF/?share_source=copy_web&vd_source=be1d4cd76c7c7c916a31c6de27adff8b)
 
 ![image-20240422174434910](README.assets/image-20240422174434910.png)
 
