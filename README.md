@@ -33,9 +33,13 @@ malie引擎会从上到下读取dat封包文件，使用malie_packer将修改后
 
 R18版跟曙光版的封包加密是不一样的，如何读取加密封包都写进了各自的exe执行程序。按道理来说是实现不了dx版的全年龄版和r18版复用资源的效果。但我测试发现曙光版的exe可以读取老版的剧本正常运行，虽然不清楚原理。做补丁的思路就可以跟di一样了，创建新的dat封包再和malie.ini一起跟exe打包即可。
 
-- **未解决的问题**
+- exe的alpharom脱壳
 
-kkk的exe有一层硬壳，我试过engimavb和molebox都不能正常打包，没有脱壳的技术力，目前也没能找到其他解决方法。有知道方法的朋友还请联系我。
+kkk的exe有一层硬壳，未脱壳前我试过enigmavb和molebox都不能正常打包。感谢[Cosetto](https://github.com/Cosetto)做的脱壳 [malie.zip](https://github.com/Akaruzi/dies_aitrans/files/15195709/malie.zip)，现在可以用enigmavb正常打包，reshacker修改提示字段。
+
+- 用reshacker修改Menu/APP3:1041和String Table/1:1041里的字段来翻译提示框。
+
+![image-20240506132405638](README.assets/image-20240506132405638.png)
 
 ### R18脚本移植
 
