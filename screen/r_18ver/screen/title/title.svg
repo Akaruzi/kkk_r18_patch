@@ -1,0 +1,409 @@
+<svg width="2048px" height="1200px" xmlns='http://www.w3.org/2000/svg' xmlns:m='' xmlns:ui=''>
+	<defs>
+		<filter id='Multiply'>
+			<feBlend mode='multiply' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+		<filter id='Add'>
+			<feBlend mode='screen' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+	</defs>
+	<g transform='scale(0.5)'>
+	<image id='frame' x='0' y='0' width='2048' height='1200' xlink:href='./frame.png' opacity='1'/>
+	<image id='rindou' x='-144' y='-408' width='1180' height='1768' xlink:href='./rindou.png' opacity='1'/>
+	<image id='habaki' x='-552' y='160' width='2052' height='1700' xlink:href='./habaki.png' opacity='1'/>
+	<image id='effect' x='0' y='0' width='1499' height='1200' xlink:href='./effect.png' opacity='1'/>
+	<image id='r_front' x='1512' y='744' width='536' height='424' xlink:href='./r_front.png' opacity='1'/>
+	<image id='l_front' x='0' y='652' width='968' height='548' xlink:href='./l_front.png' opacity='1'/>
+	<image id='logo' x='868' y='148' width='668' height='840' xlink:href='./logo.png' opacity='1'/>
+	<defs>
+	<image id='prologue_n' x='1944' y='148' width='40' height='88' xlink:href='./cn_prologue_n.png' opacity='1'/>
+	<image id='newgame_n' x='1896' y='148' width='36' height='260' xlink:href='./cn_newgame_n.png' opacity='1'/>
+	<image id='load_n' x='1844' y='148' width='40' height='260' xlink:href='./cn_load_n.png' opacity='1'/>
+	<image id='config_n' x='1796' y='148' width='36' height='260' xlink:href='./cn_config_n.png' opacity='1'/>
+	<image id='extra_n' x='1744' y='148' width='40' height='161' xlink:href='./cn_extra_n.png' opacity='1'/>
+	<image id='end_n' x='1644' y='148' width='40' height='163' xlink:href='./cn_end_n.png' opacity='1'/>
+	<image id='cg_n' x='1744' y='408' width='40' height='88' xlink:href='./cn_cg_n.png' opacity='1'/>
+	<image id='music_n' x='1696' y='412' width='36' height='84' xlink:href='./music_n.png' opacity='1'/>
+	<image id='scene_n' x='1644' y='408' width='40' height='88' xlink:href='./scene_n.png' opacity='1'/>
+	<image id='movie_n' x='1596' y='408' width='36' height='88' xlink:href='./movie_n.png' opacity='1'/>
+	<image id='profil_n' x='1544' y='408' width='40' height='88' xlink:href='./profil_n.png' opacity='1'/>
+	<image id='award_n' x='1512' y='152' width='80' height='148' xlink:href='./award_n.png' opacity='1'/>
+	<image id='prologue_o' x='1880' y='112' width='106' height='341' xlink:href='./cn_prologue_o.png' opacity='1'/>
+	<image id='newgame_o' x='1828' y='112' width='108' height='344' xlink:href='./cn_newgame_o.png' opacity='1'/>
+	<image id='load_o' x='1780' y='112' width='108' height='344' xlink:href='./cn_load_o.png' opacity='1'/>
+	<image id='config_o' x='1728' y='112' width='108' height='344' xlink:href='./cn_config_o.png' opacity='1'/>
+	<image id='extra_o' x='1680' y='112' width='106' height='341' xlink:href='./cn_extra_o.png' opacity='1'/>
+	<image id='end_o' x='1580' y='112' width='106' height='341' xlink:href='./cn_end_o.png' opacity='1'/>
+	<image id='cg_o' x='1680' y='384' width='112' height='172' xlink:href='./cn_cg_o.png' opacity='1'/>
+	<image id='music_o' x='1632' y='384' width='108' height='172' xlink:href='./music_o.png' opacity='1'/>
+	<image id='scene_o' x='1580' y='384' width='112' height='172' xlink:href='./scene_o.png' opacity='1'/>
+	<image id='movie_o' x='1532' y='384' width='108' height='172' xlink:href='./movie_o.png' opacity='1'/>
+	<image id='profil_o' x='1480' y='384' width='112' height='172' xlink:href='./profil_o.png' opacity='1'/>
+	<image id='award_o' x='1508' y='148' width='92' height='156' xlink:href='./award_o.png' opacity='1'/>
+	</defs>
+	<g id='main_menu'>
+	<!-- [button] prologue:true -->
+	<g id="prologue">
+		<!-- イメージ -->
+		<defs>
+			<g id="prologue_f">
+				<use xlink:href="#prologue_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="prologue_normal">
+			<use xlink:href="#prologue_n"/>
+		</g>
+		<g id="prologue_over">
+			<use xlink:href="#prologue_n"/>
+			<use xlink:href="#prologue_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="prologue_focus">
+			<use xlink:href="#prologue_n"/>
+			<use xlink:href="#prologue_f"/>
+		</g>
+		<g id="prologue_focusover">
+			<use xlink:href="#prologue_n"/>
+			<use xlink:href="#prologue_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="prologue_btn" x="1946" y="150" width="35" height="84" off="#prologue_normal" off_focus="#prologue_focus" off_over="#prologue_over" off_focusover="#prologue_focusover"/>
+	</g>
+	<!-- [button] newgame:true -->
+	<g id="newgame">
+		<!-- イメージ -->
+		<defs>
+			<g id="newgame_f">
+				<use xlink:href="#newgame_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="newgame_normal">
+			<use xlink:href="#newgame_n"/>
+		</g>
+		<g id="newgame_over">
+			<use xlink:href="#newgame_n"/>
+			<use xlink:href="#newgame_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="newgame_focus">
+			<use xlink:href="#newgame_n"/>
+			<use xlink:href="#newgame_f"/>
+		</g>
+		<g id="newgame_focusover">
+			<use xlink:href="#newgame_n"/>
+			<use xlink:href="#newgame_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="newgame_btn" x="1896" y="150" width="35" height="258" off="#newgame_normal" off_focus="#newgame_focus" off_over="#newgame_over" off_focusover="#newgame_focusover"/>
+	</g>
+	<!-- [button] load:true -->
+	<g id="load">
+		<!-- イメージ -->
+		<defs>
+			<g id="load_f">
+				<use xlink:href="#load_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="load_normal">
+			<use xlink:href="#load_n"/>
+		</g>
+		<g id="load_over">
+			<use xlink:href="#load_n"/>
+			<use xlink:href="#load_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="load_focus">
+			<use xlink:href="#load_n"/>
+			<use xlink:href="#load_f"/>
+		</g>
+		<g id="load_focusover">
+			<use xlink:href="#load_n"/>
+			<use xlink:href="#load_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="load_btn" x="1846" y="150" width="35" height="258" off="#load_normal" off_focus="#load_focus" off_over="#load_over" off_focusover="#load_focusover"/>
+	</g>
+	<!-- [button] config:true -->
+	<g id="config">
+		<!-- イメージ -->
+		<defs>
+			<g id="config_f">
+				<use xlink:href="#config_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="config_normal">
+			<use xlink:href="#config_n"/>
+		</g>
+		<g id="config_over">
+			<use xlink:href="#config_n"/>
+			<use xlink:href="#config_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="config_focus">
+			<use xlink:href="#config_n"/>
+			<use xlink:href="#config_f"/>
+		</g>
+		<g id="config_focusover">
+			<use xlink:href="#config_n"/>
+			<use xlink:href="#config_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="config_btn" x="1796" y="151" width="36" height="257" off="#config_normal" off_focus="#config_focus" off_over="#config_over" off_focusover="#config_focusover"/>
+	</g>
+	<!-- [button] extra:true -->
+	<g id="extra">
+		<!-- イメージ -->
+		<defs>
+			<g id="extra_f">
+				<use xlink:href="#extra_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="extra_normal">
+			<use xlink:href="#extra_n"/>
+		</g>
+		<g id="extra_over">
+			<use xlink:href="#extra_n"/>
+			<use xlink:href="#extra_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="extra_focus">
+			<use xlink:href="#extra_n"/>
+			<use xlink:href="#extra_f"/>
+		</g>
+		<g id="extra_focusover">
+			<use xlink:href="#extra_n"/>
+			<use xlink:href="#extra_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="extra_btn" x="1747" y="150" width="34" height="146" off="#extra_normal" off_focus="#extra_focus" off_over="#extra_over" off_focusover="#extra_focusover"/>
+	</g>
+	<!-- [button] end:true -->
+	<g id="end">
+		<!-- イメージ -->
+		<defs>
+			<g id="end_f">
+				<use xlink:href="#end_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="end_normal">
+			<use xlink:href="#end_n"/>
+		</g>
+		<g id="end_over">
+			<use xlink:href="#end_n"/>
+			<use xlink:href="#end_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="end_focus">
+			<use xlink:href="#end_n"/>
+			<use xlink:href="#end_f"/>
+		</g>
+		<g id="end_focusover">
+			<use xlink:href="#end_n"/>
+			<use xlink:href="#end_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="end_btn" x="1647" y="151" width="35" height="145" off="#end_normal" off_focus="#end_focus" off_over="#end_over" off_focusover="#end_focusover"/>
+	</g>
+	</g>
+	<g id='sub_menu'>
+	<!-- [button] cg:true -->
+	<g id="cg">
+		<!-- イメージ -->
+		<defs>
+			<g id="cg_f">
+				<use xlink:href="#cg_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="cg_normal">
+			<use xlink:href="#cg_n"/>
+		</g>
+		<g id="cg_over">
+			<use xlink:href="#cg_n"/>
+			<use xlink:href="#cg_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="cg_focus">
+			<use xlink:href="#cg_n"/>
+			<use xlink:href="#cg_f"/>
+		</g>
+		<g id="cg_focusover">
+			<use xlink:href="#cg_n"/>
+			<use xlink:href="#cg_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="cg_btn" x="1747" y="410" width="34" height="84" off="#cg_normal" off_focus="#cg_focus" off_over="#cg_over" off_focusover="#cg_focusover"/>
+	</g>
+	<!-- [button] music:true -->
+	<g id="music">
+		<!-- イメージ -->
+		<defs>
+			<g id="music_f">
+				<use xlink:href="#music_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="music_normal">
+			<use xlink:href="#music_n"/>
+		</g>
+		<g id="music_over">
+			<use xlink:href="#music_n"/>
+			<use xlink:href="#music_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="music_focus">
+			<use xlink:href="#music_n"/>
+			<use xlink:href="#music_f"/>
+		</g>
+		<g id="music_focusover">
+			<use xlink:href="#music_n"/>
+			<use xlink:href="#music_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="music_btn" x="1698" y="412" width="33" height="83" off="#music_normal" off_focus="#music_focus" off_over="#music_over" off_focusover="#music_focusover"/>
+	</g>
+	<!-- [button] scene:true -->
+	<g id="scene">
+		<!-- イメージ -->
+		<defs>
+			<g id="scene_f">
+				<use xlink:href="#scene_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="scene_normal">
+			<use xlink:href="#scene_n"/>
+		</g>
+		<g id="scene_over">
+			<use xlink:href="#scene_n"/>
+			<use xlink:href="#scene_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="scene_focus">
+			<use xlink:href="#scene_n"/>
+			<use xlink:href="#scene_f"/>
+		</g>
+		<g id="scene_focusover">
+			<use xlink:href="#scene_n"/>
+			<use xlink:href="#scene_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="scene_btn" x="1647" y="411" width="34" height="84" off="#scene_normal" off_focus="#scene_focus" off_over="#scene_over" off_focusover="#scene_focusover"/>
+	</g>
+	<!-- [button] movie:true -->
+	<g id="movie">
+		<!-- イメージ -->
+		<defs>
+			<g id="movie_f">
+				<use xlink:href="#movie_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="movie_normal">
+			<use xlink:href="#movie_n"/>
+		</g>
+		<g id="movie_over">
+			<use xlink:href="#movie_n"/>
+			<use xlink:href="#movie_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="movie_focus">
+			<use xlink:href="#movie_n"/>
+			<use xlink:href="#movie_f"/>
+		</g>
+		<g id="movie_focusover">
+			<use xlink:href="#movie_n"/>
+			<use xlink:href="#movie_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="movie_btn" x="1596" y="411" width="34" height="82" off="#movie_normal" off_focus="#movie_focus" off_over="#movie_over" off_focusover="#movie_focusover"/>
+	</g>
+	<!-- [button] profil:true -->
+	<g id="profil">
+		<!-- イメージ -->
+		<defs>
+			<g id="profil_f">
+				<use xlink:href="#profil_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="profil_normal">
+			<use xlink:href="#profil_n"/>
+		</g>
+		<g id="profil_over">
+			<use xlink:href="#profil_n"/>
+			<use xlink:href="#profil_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="profil_focus">
+			<use xlink:href="#profil_n"/>
+			<use xlink:href="#profil_f"/>
+		</g>
+		<g id="profil_focusover">
+			<use xlink:href="#profil_n"/>
+			<use xlink:href="#profil_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="profil_btn" x="1546" y="411" width="35" height="83" off="#profil_normal" off_focus="#profil_focus" off_over="#profil_over" off_focusover="#profil_focusover"/>
+	</g>
+	</g>
+	<!-- [button] award:true -->
+	<g id="award">
+		<!-- イメージ -->
+		<defs>
+			<g id="award_f">
+				<use xlink:href="#award_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="award_normal">
+			<use xlink:href="#award_n"/>
+		</g>
+		<g id="award_over">
+			<use xlink:href="#award_n"/>
+			<use xlink:href="#award_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="award_focus">
+			<use xlink:href="#award_n"/>
+			<use xlink:href="#award_f"/>
+		</g>
+		<g id="award_focusover">
+			<use xlink:href="#award_n"/>
+			<use xlink:href="#award_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="true" id="award_btn" x="1514" y="155" width="78" height="143" off="#award_normal" off_focus="#award_focus" off_over="#award_over" off_focusover="#award_focusover"/>
+	</g>
+	</g>
+</svg>
