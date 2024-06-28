@@ -33,7 +33,7 @@ malie引擎会从上到下读取dat封包文件，使用malie_packer将修改后
 
 - exe的alpharom脱壳
 
-kkk的exe有一层硬壳，未脱壳前我试过enigmavb和molebox都不能正常打包。感谢[Cosetto](https://github.com/Cosetto)做的脱壳 [malie.zip](https://github.com/Akaruzi/dies_aitrans/files/15195709/malie.zip)，现在可以用enigmavb正常打包，reshacker修改提示字段。
+脱壳参照dir-a佬的[教程](https://github.com/Dir-A/AlphaRom_Crack)，感谢[Cosetto](https://github.com/Cosetto)做的脱壳 [malie.zip](https://github.com/Akaruzi/dies_aitrans/files/15195709/malie.zip)。
 
 - 用reshacker修改Menu/APP3:1041和String Table/1:1041里的字段来翻译提示框。
 
