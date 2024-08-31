@@ -5,3 +5,8 @@ exec.msg*
 op_ed/
 test*
 *wiki*
+*.code-workspace
+/op_ed/
+*.sdlproj
+*.sdlxliff
+*.eeWorkspace
