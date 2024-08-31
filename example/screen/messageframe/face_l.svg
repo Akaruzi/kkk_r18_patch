@@ -1,0 +1,21 @@
+<svg width="1024px" height="600px"
+	xmlns:a="http://www.adobe.com/svg10-extensions"
+	xmlns:m=""
+	xmlns:ui="">
+	<defs>
+		<filter id='Multiply'>
+			<feBlend mode='multiply' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+		<filter id='Add'>
+			<feBlend mode='screen' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+	</defs>
+	<g transform='scale(0.8)'>
+		<g id='hideframe'>
+			<image id='base' x='0' y='566' width='1280' height='567' xlink:href='./akaru.png' opacity='1'/>
+			<image id='face_w' transform='scale(0.65)' x='12' y='890' width='256' height='256' xlink:href='./face_w.png' opacity='1'/>
+			<ui:custom id='message' x='190' y='580' width='740' height='105'/>
+			<ui:custom id='face' x='10' y='470' width='120' height='120'/>
+		</g>
+	</g>
+</svg>

@@ -11,11 +11,13 @@ light社在2011年发布了R18的游戏无印版，13年给游戏新增了剧情
 
 ## 目前进度
 
-- 用户界面均已修完，设定图字数36000+，目前佛系翻译了，有人愿意接一下最好
-- 咲耶的信，重新渣翻了一遍，有必要让日语大手子二校，修图3/4
-- r18版多余文本80/2649
+- 用户界面均已修完，设定图字数36000+ 初翻几乎完成，待二校
+- 设定图，菜单栏，界面设定图，对话框，标题界面图，状态图，全部修完（包括无印版）
+- 咲耶的信初翻完成，字数6000+，待校对
+- 无印版hs 4/8
 
-尽量赶在di官汉发布后一起发布，毕竟kkk是di的fd
+~~尽量赶在di官汉发布后一起发布，毕竟kkk是di的fd~~
+不知道等到何年何月，还是找个好日子发了
 
 ![image-20240422184840280](README.assets/image-20240422184840280.png)
 
@@ -41,7 +43,7 @@ kkk的exe有一层硬壳，未脱壳前我试过enigmavb和molebox都不能正�
 
 ### R18脚本移植
 
-曙光版除了新增剧情以外，对老版的文本有大量的删改。不能简单地提取日语文本对比移植，必须挨个检查对照。这里我把老版的文本对着曙光版都给调好了，曙光版删掉的文本一律换成了空白，想把kkk翻译成其他语言的朋友可以参考这个json字典进行移植。
+曙光版除了新增剧情以外，对老版的文本有大量的删改。不能简单地提取日语文本对比移植，必须挨个检查对照。这里我把老版的文本对着曙光版都给调好了，曙光版删掉的文本一律换成了空白，想把kkk翻译成其他语言的朋友可以参考[r18_aa_dic.json](./r18_aa_dic.json)进行移植。
 
 r18版被删减或者不能复用的文本有2649行，hs的文本粗略估计在1000行左右。
 
@@ -49,26 +51,25 @@ r18版被删减或者不能复用的文本有2649行，hs的文本粗略估计�
 
 ![image-20240430205617864](README.assets/image-20240430205617864.png)
 
-剧本中使用了很多神代文字，提取出来的文本是无法以utf-8编码表示的unicode，与假名对应关系参见moji_dic.md
+剧本中使用了很多神代文字，提取出来的文本是无法以utf-8编码表示的unicode，与假名对应关系参见moji_dic.md，可以使用[jd_trans.py](./jd_tran.py)转换
 
 ![image-20240430210357563](README.assets/image-20240430210357563.png)
-
 
 
 ### 修图
 
 #### 需要修的图片
 
-- /data/screen/conifg/ 中的界面设定图 36/36
-- /data/screen/menu/ 菜单栏 20/20
-- /data/screen/messagebox/ 对话框 9/9
-- /data/screen/title/ 标题界面图 24/24
-- /data/screen/event 中咲耶的信120+;字数6000+
-- /data/screen/status/ 设定图 1/111;字数36000+
+- /data/screen/conifg/ 中的界面设定图 36
+- /data/screen/menu/ 菜单栏 20
+- /data/screen/messagebox/ 对话框 9
+- /data/screen/title/ 标题界面图 24
+- /data/screen/event 中咲耶的信 120+; 字数6000+
+- /data/screen/status/ 设定图 111; 字数36000+
 
 所有图片均用garbro提取为png格式
 
-文本量较大的是咲耶的信和设定图，前者的文本来自[chinnyachebe](https://www.youtube.com/watch?v=ad7GkauL-6I),见/tegami/;后者文本均用ocr的方式提取，见status/text/
+文本量较大的是咲耶的信和设定图，前者的文本来自[chinnyachebe](https://www.youtube.com/watch?v=ad7GkauL-6I),见仓库[tegami](./tegami/); 后者文本均用ocr的方式提取，见仓库[status](./status/merged_jp.txt)
 
 
 #### 图片如何调用
@@ -109,7 +110,7 @@ width 和 height 规定了图片的长宽，不用保持原分辨率比例，更
 
 
 
-​	其他语言需要调节对应的x，y，调节width和height的大小以和修过的图匹配，例如：
+其他语言需要调节对应的x，y，调节width和height的大小以和修过的图匹配，例如：
 
 ![image-20240422174307150](README.assets/image-20240422174307150.png)
 
@@ -119,17 +120,18 @@ width 和 height 规定了图片的长宽，不用保持原分辨率比例，更
 
 - **文字横版以及文本框的修改**
 
-解包的exec.str.txt文件，修改`msgfrrame type` 如下
+解包的exec.str.txt文件，修改`msgframe type` 如下
 
 ![image-20240422182632060](README.assets/image-20240422182632060.png)
 
-然后在`data/screen/messagebox`中更改`normal.svg` 文件 ，选取比较合适的长宽和文本位置，文本框背景不能直接换成png图片，所以调了一个dzi来改变背景
+然后在`data/screen/messageframe`中更改`normal.svg`。这里建议直接用我改好的[normal.svg](./example/screen/messageframe/normal.svg) ，可以适当调整x,y来改变文本以及文本框的位置。
+带人物表情的文本框用同样的方法修改`face_c.svg`, `face_l.svg`, `face_r.svg`，可以用我改好的。
 
-![image-20240422182908384](README.assets/image-20240422182908384.png)
+![image-20240831132040889](README.assets/image-20240831132040889.png)
 
+效果图：
 
-
-![image-20240422174620011](README.assets/image-20240422174620011.png)
+![image-20240831132023016](README.assets/image-20240831132023016.png)
 
 
 
