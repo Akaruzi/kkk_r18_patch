@@ -9,9 +9,9 @@ API_KEY = password.API_KEY
 SECRET_KEY = password.SECRET_KEY
 
 def main():
-    fps = os.listdir('./images')
+    fps = os.listdir('./iken')
     for fp in fps:
-        ocr(f'./images/{fp}')
+        ocr(f'./iken/{fp}')
 
 def ocr(fp):
         
@@ -59,7 +59,7 @@ def get_text(content, fn):
     for i in content['words_result']:
         words = i['words']
         t.append(words)
-    return print(''.join(t), file=open(f'./text/{fn}.txt', 'w', encoding='utf-8'))
+    return print('\n'.join(t), file=open(f'./text_iken/{fn}.txt', 'w', encoding='utf-8'))
 
 if __name__ == '__main__':
     main()

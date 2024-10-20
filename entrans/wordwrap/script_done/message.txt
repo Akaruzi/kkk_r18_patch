@@ -1,0 +1,122 @@
+◇00000000◇　旧世界の知識を持っていますか？[c]※初回遊戯時は“持っていない”を選択することをおすすめします。[z]
+◆00000000◆　Do you have knowledge regarding [n]the old world?[c]※For your first playthrough, it is [n]recommended that you select "No" [n]for this option.[z]
+◇00000001◇　場面跳ばし機能を使用しますか？[z]
+◆00000001◆　Would you like to use the scene [n]skip feature?[z]
+◇00000002◇　振り下ろす一閃――[z]
+◆00000002◆　A single, sweeping stroke—[z]
+◇00000003◇　分類上、それは斬り伏せるという行為に属すが、及ぼす効果は砕き散らす爆発に等しい。刃物による攻撃なので斬撃と言える。などとは到底形容できぬ激烈な猛撃だった。[z]
+◆00000003◆　Though categorized as a slashing [n]action, its impact rivals that of a [n]cataclysmic explosion. Rendered [n]by a blade, it is indeed such action, [n]yet unfolds a ferocity that [n]transcends conventional [n]description.[z]
+◇00000004◇　ゆえに、弾き返したその一閃も同じく爆撃。およそ鋼と鋼が噛み合うものとは思えぬ轟音を響かせて、大気が断末魔の絶叫をあげている。[z]
+◆00000004◆　Therefore, that counterstrike was [n]equally ferocious. It reverberated [n]with a thunderous roar, utterly [n]inconceivable for mere steel [n]clashing against steel, to the point [n]where the very atmosphere wailed [n]in its final throes.[z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆Keishirou
+◇00000005◇{v_ksr0001_a}「はッ―――」[s][z]
+◆00000005◆{v_ksr0001_a} "Heh!"[s][z]
+◇00000006◇　伝播する衝撃に四肢を震わせ、初手の一刀を放った側はこの事態を歓迎していた。[z]
+◆00000006◆　From the shockwaves [n]propagating all throughout, his [n]limbs were trembling, and so he [n]who had initiated that first strike [n]greeted this unfolding spectacle [n]enthusiastically.[z]
+◇00000007◇　己の攻撃、己の牙、それを真っ向受け止めて撥ね返した存在に、満腔の喜びを向けている。呆れと怒りと微量の驚愕が混じっているが、総て喜悦の亜種に他ならない。[z]
+◆00000007◆　The man unleashed the full [n]measure of his joy upon the [n]person who faced head-on and [n]fought back against his own attack [n]and fangs. Though it contained a [n]mixture of exasperation, anger, [n]and a slight amount of [n]astonishment, they were but [n]varying hues of his profound joy.[z]
+◇00000008◇　そう、こんな嬉しいことが何処にある。己に触れても易々壊れぬ存在とは、ただそれだけで愛おしいと。[z]
+◆00000008◆　Truly, where else could an [n]individual discover such joy? To be [n]the person who can remain [n]unscathed by his touch was, in [n]itself, deeply endearing.[z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆刑士郎
+◇00000009◇{v_ksr0002}「失敗、だったか。悪ぃな、実際舐めてたよ」[s][z]
+◆00000009◆{v_ksr0002}"So, looks like I failed on that part. [n]My bad 'bout that, I was actually [n]underestimating."[s][z]
+◇0000000A◇　男の業は人の範疇を超えている。手にした得物を標的目掛け、力任せに叩きつけたというだけのことだが、速さと膂力が魔性の域だ。ゆえに武器が耐えられない。[z]
+◆0000000A◆　The man's art ascended past the [n]limitations of human capability. He [n]struck with sheer force, wielding [n]his weapon with such speed and [n]strength that it verged on the [n]supernatural. As a result, his [n]armament couldn't withstand such [n]an assault.[z]
+◇0000000B◇　失敗とはそれ。蟻を相手に本気を出すなど無粋の極みと思っていたこと。[z]
+◆0000000B◆　That is where his failure laid at. [n]He thought of it as the summit of [n]folly to engage seriously with [n]something as insignificant as an [n]ant.[z]
+◇0000000C◇　しかし、現実の敵は獅子だった。これでは逆に、真価を発揮できないことこそ遺憾である。[z]
+◆0000000C◆　Yet, the man's true enemy was a [n]lion. Thus, not being able to [n]maximally manifest his genuine [n]prowess was the real regret here.[z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆Keishirou
+◇0000000D◇{v_ksr0003}「まあ、いざとなりゃあ素手っていうのも有りだよな。あと何発保つか知らねえが……」[s][z]
+◆0000000D◆{v_ksr0003}"Well, if it ever comes down to a [n]pinch, I guess these hands are a [n]viable option. How many more hits [n]this thing can take is something I [n]don't know, but..."[s][z]
+◇0000000E◇　軋みあげる刀の精。一般には名刀と呼ばれる類だが、男にとっては[鈍刀](ナマクラ)である。[z]
+◆0000000E◆　His sword's energy was creaking. [n]Sure, it might've been hailed as an [n]object of unbeatable quality, but it [n]was just mere dully as any [n]commonplace object in his eyes.[z]
+◇0000000F◇　何の法儀式も特殊な鍛造も施していない、時代が下れば文化財にはなるだろうという程度の代物。人外に足を踏み入れた者同士の戦いには、言うまでもなく不足している。[z]
+◆0000000F◆　It was a sword that had received [n]neither ceremonial rites nor [n]special forging, a mere object that [n]might one day be considered a [n]cultural artifact if times change. [n]For a battle between those who [n]have stepped beyond the realm of [n]the ordinary, it was, needless to [n]say, woefully inadequate.[z]
+◇00000010◇　だから、[刀](これ)が死ねば殴り合おう。きっとその方が面白い。[z]
+◆00000010◆　Which is why... Should his mere [n]piece perish, then he would go at it [n]finally with their fists. Who knows [n]how more interesting that'd be?[z]
+◇00000011◇　口角を吊り上げ、牙を剥き、凶猛な笑みを浮かべて男は言った。[c]　声はもはや、餓獣の唸りにしか聞こえない。[z]
+◆00000011◆　With his lips curled into a snarl [n]and a feral grin on his face, the [n]man spoke.[c]　His voice now resembled nothing [n]more than the growl of a starving [n]beast.[z]
+◇00000012◇　酷烈な主によって塵同然に使い捨てられる刀の嘆き……そんなものを[斟酌](しんしゃく)してやる感傷など、この男には微塵もなかった。[z]
+◆00000012◆　The lamentation of a blade being [n]cast aside like refuse by a [n]merciless master—this man held not [n]the slightest sense of sentiment to [n]consider such a thing.[z]
+◇00000013◇　道具はただ道具として、すり潰されるまで働けばいい。友だの情人だの兄弟だのと、ワケの分からぬ想いを込めて、凶器を擬人化したところで意味などないと冷酷なまでに弁えている。[z]
+◆00000013◆　For him, a tool was solely this: a [n]device to be employed until it [n]ceased to function. He perceived [n]with a cold precision that investing [n]a weapon with the emotions of [n]comrades, lovers, or kin was [n]nothing more than a futile [n]affectation.[z]
+◇00000014◇　死地において、いいや[行住坐臥](ぎょうじゅうざが)総てにおいて、己以外の何かに縋るのは狂気の沙汰だ。天下にただ一人である自分を除き、そも何を信仰しろと言うのだろう。[z]
+◆00000014◆　In the face of mortality—and indeed [n]in all facets of life—depending on [n]anything beyond oneself is the [n]pinnacle of folly. What, apart from [n]oneself, could warrant veneration [n]when only one being holds [n]supremacy in this world?[z]
+◇00000015◇　それがこの時代、この世界における[共通常識](あたりまえ)。誰もが己を神と崇め、絶対と信じる自己の[姿](りそう)にのみ順じている。他者への敬意や友情、愛などは、つまるところ素晴らしき我を彩る風流にすぎない。[z]
+◆00000015◆　Such is what encapsulates the [n]ethos of this time period and world. [n]Each individual reveres themselves [n]as Deity and adheres exclusively to [n]their own ideals as the highest. [n]Respect, camaraderie, and [n]affection for others are merely [n]ornamental flourishes to the [n]grandeur of the self.[z]
+◇00000016◇　ゆえに――[z]
+◆00000016◆　Thus...[z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇00000017◇{v_hbk0001}「ああ、同感だわ。俺もおまえを舐めてたよ」[s][z]
+◆00000017◆{v_hbk0001}"Oh yeah, I'm the same here. I fall [n]victim to your sentiment as well."[s][z]
+◇00000018◇　対峙するこの彼も、そこはまったくの同類だった。得物が耐え切れず悲鳴をあげていることも、その事態を引き起こした敵手の強さも、総て己を演出する風流としか見ていない。[z]
+◆00000018◆　The man whom he faces off now [n]was as identical. He too saw it [n]all—the wailing of a weapon unable [n]to bear the strain, the strength of [n]the adversary responsible for [n]instigating this situation—as nothing [n]more than a theatrical [n]performance of the ego.[z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇00000019◇{v_hbk0002}「けどなあ、せっかく華の都で立ち回るんだ。[c]ちっとは型ァ重視した艶を出そうぜ。分かるだろ」[s][z]
+◆00000019◆{v_hbk0002}"But hey, since we're gracing this [n]Flowerful Capital,[c]don't you think we'd ought to add [n]some fashion to it? You get what I [n]mean.”[s][z]
+◇0000001A◇　己を良い気分にさせ輝かせること。彼らにとって価値ある者とは、そうした存在に帰結する。[z]
+◆0000001A◆　So that the ego may be brought to [n]satisfaction. For them, true worth is [n]defined in such a state of being.[z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇0000001B◇{v_hbk0003}「殴り合う？　やめてくれよ、美しくない」[s][z]
+◆0000001B◆{v_hbk0003}"A fistfight? C'mon now, that ain't [n]elegant."[s][z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇0000001C◇{v_hbk0004}「お互い見立ての甘かった馬鹿同士。条件五分だぜ、[c]こうなりゃいけるとこまでいってみようや」[s][z]
+◆0000001C◆{v_hbk0004}“We’re both fools who [n]underestimated each other. The [n]conditions are even,[c]so let's see how damn far we can [n]push it.”[s][z]
+◇0000001D◇　そして、だからこそ、彼らから見る他者の評価は極端な乱高下を繰り返す。僅かでも不快な真似をした瞬間に、至高の宝石がただの石くれへと変わるのだ。[z]
+◆0000001D◆　And thus, it is precisely for this [n]reason that their evaluations of [n]others oscillate dramatically. The [n]moment a hint of displeasure [n]arises, a gem of the highest [n]caliber can instantly be reduced to [n]nothing more than a common [n]stone.[z]
+◇0000001E◇　無論、逆もまた然りだが、ともかくこの場で言えることは一つだけ。[z]
+◆0000001E◆　Of course, the reverse is equally [n]true. Yet, for the present moment, [n]there remains but one observation [n]to be made about their [n]circumstances.[z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆Keishirou
+◇0000001F◇{v_ksr0004}「ふふ、ふふふふふ……」[s][z]
+◆0000001F◆{v_ksr0004}“Heh, heh heh heh heh…”[s][z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇00000020◇{v_hbk0005}「はは、ははははは……」[s][z]
+◆00000020◆{v_hbk0005}“Hahahahaha…”[s][z]
+◇00000021◇　双方噛み合っているうちは、極上の桃源郷に身をおける事実。[c]　ならばそれに沿う限り、迷いも恐れもありはしない。[z]
+◆00000021◆　So long as both parties remain in [n]sync, they revel in an exquisite [n]paradise of their own making.[c]　In such harmony, there is no [n]place for hesitation or fear.[z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆Keishirou
+◇00000022◇{v_ksr0005}「いいぞ、乗ったぜ。面白ぇ」[s][z]
+◆00000022◆{v_ksr0005}“Alright then, I’m intrigued. This [n]promises to be interesting."[s][z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆Keishirou
+◇00000023◇{v_ksr0006}「つまり、あれだな？[c][士](サムライ)たらいう、頭あったけえ花道演出してみようやと」[s][z]
+◆00000023◆{v_ksr0006}“So, what you’re proposing is a [n]grand spectacle——a performance of [n]samurai splendor, rich in elegance [n]and flourish.”[s][z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇00000024◇{v_hbk0006}「もともとそういう興行だろうが。[c]こりゃ名目上、[益荒男](ますらお)募るってもんじゃねえのかよ」[s][z]
+◆00000024◆{v_hbk0006}“That’s precisely what this type of [n]show has always been. This is just [n]an elaborate way to gather some [n]real warriors masked as a noble [n]venture.”[s][z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇00000025◇{v_hbk0007}「なら、それっぽくいってみようや。御前らしくよ、撃剣かましてみようじゃねえの。これを軍記に残るような晴れ舞台に」[s][z]
+◆00000025◆{v_hbk0007}“Then let's embrace that role with [n]finesse. Let's make a scene of such [n]grandeur that it'll be etched into [n]the chronicles of history—a stage [n]worthy of legend.”[s][z]
+◇AAAAAAAA◇覇吐
+◆AAAAAAAA◆Habaki
+◇00000026◇{v_hbk0008}「出来たら、なあ、最っ高にいかしてんじゃねえのか、俺たちは」[s][z]
+◆00000026◆{v_hbk0008}“If we pull this off, wouldn’t it be the [n]pinnacle of perfection for us?”[s][z]
+◇00000027◇　[天](かみ)を知らぬ。[地](みち)を知らぬ。死後の浄土も奈落も何も、概念自体存在せぬからこの生にのみ総てを欲する。[z]
+◆00000027◆　They are unacquainted with the [n]divine. Unfamiliar with the earthly. [n]Neither the afterlife's paradise nor [n]an abyss exists in their worldview, [n]as they covet all within the confines [n]of this single life.[z]
+◇00000028◇　普遍的信仰というものが何処にもない無道の世。後に天狗道と定義される、魔界の理がそれであった。[z]
+◆00000028◆　A lawless world where universal [n]faith held no place. Such is the [n]principle of the demonic world that [n]would in time be defined as [n]Maraloka.[z]
+◇AAAAAAAA◇刑士郎
+◆AAAAAAAA◆Keishirou
+◇00000029◇{v_ksr0007}「軍記に残る、ねえ……」[s][z]
+◆00000029◆{v_ksr0007}"Etched into the Chronicles of [n]History, huh?"[s][z]
+◇0000002A◇　己が燦然と輝くためなら、親兄弟はもちろんのこと自分自身すら焼き尽くすことに躊躇しない。[z]
+◆0000002A◆　They would hesitate not to [n]incinerate even their family, let [n]alone themselves, if it was for the [n]sake of achieving their own radiant [n]brilliance.[z]
+◇0000002B◇　これより始まる一世一代の大戦争。神州の半分を奪い返す東征に先駆ける狼煙として。[z]
+◆0000002B◆　This is the beginning of a [n]monumental conflict that occurs [n]once-in-a-generation. A herald for [n]the Eastern Expedition to reclaim [n]half of the Divine Province.[z]
+◇0000002C◇　数十万の兵どもを鼓舞する益荒男――士道の華を演じてみるのも、なるほど、なかなか悪くはないと。[z]
+◆0000002C◆　A robust warrior who can inspire [n]hundreds of thousands of [n]soldiers...yes, perhaps playing the [n]role of the splendid paragon of [n]chivalry isn't such a bad thing after [n]all.[z]
+◇0000002D◇　芝居がかった抑揚で。[c]　しかしこの上なく真摯に、苛烈に、容赦なく――[z]
+◆0000002D◆　With a theatrical cadence,[c]　but profound sincerity, fierce [n]intensity, and unyielding resolve...[z

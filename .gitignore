@@ -11,3 +11,5 @@ test*
 *.sdlxliff
 *.eeWorkspace
 /op_ed
+./.gitignore
+./tegami/

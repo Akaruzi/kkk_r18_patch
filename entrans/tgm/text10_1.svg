@@ -1,0 +1,10 @@
+<svg width='1024' height='600'>
+	<defs>
+		<filter id='Add'>
+			<feBlend mode='screen' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+	</defs>
+	<g transform='scale(0.5) translate(0 0)'>
+		<image id='image' x='1600' y='140' width='194' height='924' xlink:href='./text10_1_cn.png'/>
+	</g>
+</svg>

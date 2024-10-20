@@ -1,0 +1,15 @@
+<svg width="1024px" height="600px" xmlns:a="http://www.adobe.com/svg10-extensions" xmlns:m="" xmlns:ui="">
+	<defs>
+		<filter id='Multiply'>
+			<feBlend mode='multiply' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+		<filter id='Add'>
+			<feBlend mode='screen' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+	</defs>
+	<g id='hideframe'>
+		<image id='base' x='380' y='0' width='260' height='600' xlink:href='./normal_l_frame.png' opacity='1'/>
+		<ui:custom id='message' x='390' y='70' width='250' height='564'/>
+		<!-- <ui:custom id='name'x='305' y='45' width='290' height='27'/> -->
+	</g>
+</svg>

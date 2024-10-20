@@ -1,0 +1,50 @@
+<svg width="1024px" height="600px" xmlns='http://www.w3.org/2000/svg' xmlns:m='' xmlns:ui=''>
+	<defs>
+		<filter id='Multiply'>
+			<feBlend mode='multiply' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+		<filter id='Add'>
+			<feBlend mode='screen' in2='BackgroundImage' in='SourceGraphic'/>
+		</filter>
+	</defs>
+
+	<g id='hideframe'>
+	<image id='base' x='0' y='450' width='1024' height='450' xlink:href='./akaru.png' opacity='1'/>
+	<defs>
+	<image id='close_o' x='1112' y='608' width='27' height='53' xlink:href='./close_o.png' opacity='1' filter='url(#Add)'/>
+	</defs>
+	<ui:custom id='message' x='120' y='460' width='840' height='105'/>
+	<ui:custom id='name'x='-77' y='469' width='290' height='27'/>
+	<!-- [button] close:false -->
+	<g id="close">
+		<!-- イメージ -->
+		<defs>
+			<g id="close_f">
+				<use xlink:href="#close_o">
+					<animate attributeName="opacity" begin="0" dur="1" keyTimes="0;0.5;1" values="1;0;1" repeatDur="indefinite"/>
+				</use>
+			</g>
+		</defs>
+		<g id="close_normal">
+			<use xlink:href="#close_n"/>
+		</g>
+		<g id="close_over">
+			<use xlink:href="#close_n"/>
+			<use xlink:href="#close_o">
+				<animate attributeName="opacity" begin="0" dur="0.2" keyTimes="0;1" values="0;1" fill="freeze"/>
+			</use>
+		</g>
+		<g id="close_focus">
+			<use xlink:href="#close_n"/>
+			<use xlink:href="#close_f"/>
+		</g>
+		<g id="close_focusover">
+			<use xlink:href="#close_n"/>
+			<use xlink:href="#close_o"/>
+		</g>
+		<!-- ボタン -->
+		<ui:button tabstop="false" id="close_btn" x="1096" y="602" width="54" height="66" off="#close_normal" off_focus="#close_focus" off_over="#close_over" off_focusover="#close_focusover"/>
+	</g>
+
+	</g>
+</svg>

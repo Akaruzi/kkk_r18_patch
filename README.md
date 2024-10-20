@@ -1,4 +1,12 @@
-## KKK_r18_patch & kkk 汉化补完
+## KKK_r18_patch & kkk 汉化补完 & DIY Translation Tutorial 
+
+## DIY Translation Tutorial
+
+![image-20241020140528170](README.assets/image-20241020140528170.png)
+
+Check [here]() if you wanna translate K3 into any other language
+
+
 
 
 ### 关于神咒神威神乐 （kkk & 3k & kajiri kamui kagura） 
