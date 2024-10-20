@@ -6,6 +6,8 @@
 
 **Check [here](./entrans_tutorial.md) if you wanna translate K3 into any other language**
 
+See the demo [video](https://youtu.be/GAXBhPd1aEM?si=Fp3Xlzb7hmyByF2G) of the K3 prologue.
+
 ---
 
 
