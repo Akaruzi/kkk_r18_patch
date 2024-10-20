@@ -42,10 +42,6 @@ To address this, I've prepared an [automated script](./entrans/tgm/epic.py). You
 
 # Credit
 
-Tutorial provider:
-
-- Akaruzi (魔法野马)
-
 Translation of the demonstration images:
 
 - [Confirm](https://kakuninblog.wordpress.com/)
