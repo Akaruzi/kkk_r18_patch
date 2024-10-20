@@ -1,15 +1,16 @@
-## KKK_r18_patch & kkk 汉化补完 & DIY Translation Tutorial 
+# KKK_r18_patch & kkk 汉化补完 & Fan Translation Tutorial 
 
-## DIY Translation Tutorial
+## Fan Translation Tutorial
 
 ![image-20241020140528170](README.assets/image-20241020140528170.png)
 
-Check [here]() if you wanna translate K3 into any other language
+**Check [here](./entrans_tutorial.md) if you wanna translate K3 into any other language**
+
+---
 
 
 
-
-### 关于神咒神威神乐 （kkk & 3k & kajiri kamui kagura） 
+## 关于神咒神威神乐 （kkk & 3k & kajiri kamui kagura） 
 
 light社在2011年发布了R18的游戏无印版，13年给游戏新增了剧情，并对剧情安排和剧本再次修改后发布了全年龄版的《神咒神威神楽 ·曙之光》。
 
@@ -21,7 +22,7 @@ light社在2011年发布了R18的游戏无印版，13年给游戏新增了剧情
 
 - 用户界面，设定图字数36000+ 
 - 设定图，菜单栏，界面设定图，对话框，标题界面图，状态图，全部修完（包括无印版）
-- 咲耶的信初翻完成，字数6000+
+- 咲耶的信重翻完成，字数6000+
 - 无印版hs 8/8
 - 横版补丁
 
@@ -112,9 +113,9 @@ width 和 height 规定了图片的长宽，不用保持原分辨率比例，更
 
 - 咲耶的信
   中文可以竖排阅读，所以在原图上进行修改即可。
-  序章内嵌修图见 [【神咒神威神乐】序章・凶月咲耶的信 内嵌修图版预览](https://www.bilibili.com/video/BV1SJ4m1p7wF/?share_source=copy_web&vd_source=be1d4cd76c7c7c916a31c6de27adff8b)
+  序章内嵌修图见 [【神咒神威神乐】OP 及序章・凶月咲耶的信](https://www.bilibili.com/video/BV1NU1DYGEyt)
 
-![image-20240422174434910](README.assets/image-20240422174434910.png)
+![image-20241020152451203](README.assets/image-20241020152451203.png)
 
 
 
